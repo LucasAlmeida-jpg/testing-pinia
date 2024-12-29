@@ -3,7 +3,7 @@
       <h3>{{ task.title }}</h3>
       <div class="icons">
         <i 
-          class="material-icons" 
+          class="material-icons testing" 
           @click="taskStore.deleteTask(task.id)">
           delete
         </i>
